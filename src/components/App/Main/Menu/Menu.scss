@@ -1,0 +1,10 @@
+.menu {
+    width: 20%;
+    max-width: 400px;
+    background-color: var(--mainWhite);
+    padding: 5px 15px;
+
+    &__list {
+        list-style-type: none;
+    }
+}

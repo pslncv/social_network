@@ -1,0 +1,14 @@
+.profile {
+    width: 20%;
+    max-width: 400px;
+    background-color: var(--mainWhite);
+    padding: 5px 15px;
+
+    &__image {
+        width: 80px;
+        height: 80px;
+        border: 3px var(--mainOrange) solid;
+        margin: 0 auto 20px;
+        border-radius: 50%;
+    }
+}

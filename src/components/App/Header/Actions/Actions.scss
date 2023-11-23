@@ -1,0 +1,39 @@
+.actions {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+
+    &__search {
+        height: 35px;
+    }
+
+    &__notifications {
+        height: 50px;
+        width: 50px;
+        background-color: var(--mainOrange);
+    }
+
+    &__messages {
+        height: 50px;
+        width: 50px;
+        background-color: var(--mainOrange);
+    }
+
+    &__global {
+        height: 50px;
+        width: 50px;
+        background-color: var(--mainOrange);
+    }
+
+    &__profile {
+        height: 50px;
+        width: 50px;
+        background-color: var(--mainOrange);
+    }
+
+    &__burger {
+        height: 50px;
+        width: 50px;
+        background-color: var(--mainOrange);
+    }
+}

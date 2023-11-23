@@ -1,0 +1,17 @@
+.navigation {
+    margin: 0 auto;
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+}
