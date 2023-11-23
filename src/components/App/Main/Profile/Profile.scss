@@ -1,5 +1,6 @@
 .profile {
     width: 20%;
+    min-width: 150px;
     max-width: 400px;
     background-color: var(--mainWhite);
     padding: 5px 15px;
@@ -10,5 +11,8 @@
         border: 3px var(--mainOrange) solid;
         margin: 0 auto 20px;
         border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

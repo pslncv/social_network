@@ -6,8 +6,8 @@ import './CreatePost.scss'
 
 const CreatePost = () => {
     return (
-    <div className="post">
-        <div className="post__title title">Create post</div>
+    <div className="create">
+        <div className="create__title title">Create post</div>
     </div>
     );
 }

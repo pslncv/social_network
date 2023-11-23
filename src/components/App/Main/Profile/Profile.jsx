@@ -12,7 +12,7 @@ const Profile = () => {
         <div className="profile__title title">
             Profile
         </div>
-        <div className="profile__image"></div>
+        <div className="profile__image">LOGO</div>
         </aside>
     );
 }
