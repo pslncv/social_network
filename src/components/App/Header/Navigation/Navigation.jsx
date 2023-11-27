@@ -1,7 +1,7 @@
 //* Base React imports
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 //* Components
 
@@ -13,17 +13,13 @@ const Navigation = () => {
         <nav className="header__navigation navigation">
         <ul className="navigation__list">
             <li className="navigation__item">
-                <Link to={`/`}>Home</Link>
+                <NavLink to={`/`}>Home</NavLink>
             </li>
             <li className="navigation__item">
-                <a href="#" className="navigation__link">
-                    Media
-                </a>
+                <NavLink to={`media`}>Media</NavLink>
             </li>
             <li className="navigation__item">
-                <a href="#" className="navigation__link">
-                    Actions
-                </a>
+                <NavLink to={`activity`}>Actions</NavLink>
             </li>
         </ul>
         </nav>

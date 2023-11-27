@@ -19,6 +19,9 @@ import Content from './components/App/Main/Menu/Content/Content.jsx'
 import Messages from './components/App/Main/Menu/Messages/Messages.jsx';
 import News from './components/App/Main/Menu/News/News.jsx';
 import Music from './components/App/Main/Menu/Music/Music.jsx';
+import Media from './components/App/Header/Navigation/Media/Media.jsx'
+import Activity from './components/App/Header/Navigation/Activity/Activity.jsx';
+
 
 
 //* Routes
@@ -50,6 +53,14 @@ const router = createBrowserRouter([
       {
         path: "music",
         element: <Music />
+      },
+      {
+        path: "media",
+        element: <Media />
+      },
+      {
+        path: "activity",
+        element: <Activity />
       },
     ]
   },

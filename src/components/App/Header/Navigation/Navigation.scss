@@ -9,9 +9,16 @@
 
     &__item {
 
-    }
+        & a {
+            display: inline-block;
+            font-size: 16px;
+            line-height: 13px;
+            padding: 0 0 5px;
+            border-bottom: transparent solid;
 
-    &__link {
-
+            &.active {
+                border-bottom: 3px var(--mainOrange) solid;
+            }
+        }
     }
 }
