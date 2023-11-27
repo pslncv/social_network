@@ -8,7 +8,9 @@
 
 html,
 body {
-  height: 100%;
+  min-height: 100%;
+  //! Change it before deploy
+  height: 101%;
   font-family: 'Poppins', Courier, monospace;
 }
 

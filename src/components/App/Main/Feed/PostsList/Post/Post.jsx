@@ -17,7 +17,7 @@ const Post = () => {
                 </div>
             </div>
             <div className="post__content">
-                <div className="post__image">s</div>
+                <div className="post__image">props.image</div>
                 <div className="post__text">Lorem ipsum</div>
             </div>
             <div className="post__feedback feedback">
