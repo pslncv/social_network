@@ -2,7 +2,7 @@
 import React from 'react';
 
 //* Components
-import CreatePost from './CreatePost/CreatePost'
+import CreatePost from './../CreatePost/CreatePost'
 import PostsList from './PostsList/PostsList'
 
 //* Styles

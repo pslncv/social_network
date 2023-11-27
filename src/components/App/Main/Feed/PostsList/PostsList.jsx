@@ -13,11 +13,6 @@ const PostsList = () => {
         <div className="postsList">
             <Title />
             <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
         </div>
     );
 }

@@ -17,8 +17,8 @@ const Post = () => {
                 </div>
             </div>
             <div className="post__content">
-                <div className="post__image">props.image</div>
-                <div className="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus, aliquam dicta soluta at aut distinctio fugit eos rem esse, nemo libero sint odio odit cum officia corrupti adipisci sapiente?ero sint odio odit cum officia corrupti adipisci sapiente?ero sint odio odit cum officia corrupti adipisci sapiente?ero sint odio odit cum officia corrupti adipisci sapiente?</div>
+                <div className="post__image">s</div>
+                <div className="post__text">Lorem ipsum</div>
             </div>
             <div className="post__feedback feedback">
                 <div className="feedback__view action"></div>

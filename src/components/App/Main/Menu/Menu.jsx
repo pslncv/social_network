@@ -1,29 +1,31 @@
 import React from 'react';
 import './Menu.scss'
 
+import { Link } from 'react-router-dom';
+
 const Menu = () => {
     return (
-        <aside className="menu">
-        <div className="menu__title title">
-            Menu   
-        </div>
-        <ul className="menu__list">
-            <li className="menu__item">
-                <a href="#" className="menu__link">Profile</a>
-            </li>
-            <li className="menu__item">
-                <a href="#" className="menu__link">Content</a>
-            </li>
-            <li className="menu__item">
-                <a href="#" className="menu__link">Messages</a>
-            </li>
-            <li className="menu__item">
-                <a href="#" className="menu__link">News</a>
-            </li>
-            <li className="menu__item">
-                <a href="#" className="menu__link">Music</a>
-            </li>
-        </ul>
+        <aside className="aside-menu">
+            <div className="menu__title title">
+                Menu   
+            </div>
+            <ul className="menu__list">
+                <li className="menu__item">
+                    <Link to={`profile`}>Profile</Link>
+                </li>
+                <li className="menu__item">
+                    <Link to={`content`}>Content</Link>
+                </li>
+                <li className="menu__item">
+                    <Link to={`messages`}>Messages</Link>
+                </li>
+                <li className="menu__item">
+                    <Link to={`news`}>News</Link>
+                </li>
+                <li className="menu__item">
+                    <Link to={`music`}>Music</Link>
+                </li>
+            </ul>
         </aside>
     );
 }

@@ -2,9 +2,8 @@
 import React from 'react';
 
 //* Components
-import Profile from './Profile/Profile';
 import Menu from './Menu/Menu'
-import Feed from './Feed/Feed';
+import { Outlet } from 'react-router-dom';
 
 //* Styles
 import './Main.scss'
@@ -13,8 +12,7 @@ const Main = () => {
     return (
         <main className="main">
             <Menu />
-            <Feed />
-            <Profile />
+            <Outlet />
         </main>
     );
 }
