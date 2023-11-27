@@ -1,7 +1,7 @@
 import React from 'react';
 import './Menu.scss'
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
     return (
@@ -11,19 +11,19 @@ const Menu = () => {
             </div>
             <ul className="menu__list">
                 <li className="menu__item">
-                    <Link to={`profile`}>Profile</Link>
+                    <NavLink to={`profile`}>Profile</NavLink>
                 </li>
                 <li className="menu__item">
-                    <Link to={`content`}>Content</Link>
+                    <NavLink to={`content`}>Content</NavLink>
                 </li>
                 <li className="menu__item">
-                    <Link to={`messages`}>Messages</Link>
+                    <NavLink to={`messages`}>Messages</NavLink>
                 </li>
                 <li className="menu__item">
-                    <Link to={`news`}>News</Link>
+                    <NavLink to={`news`}>News</NavLink>
                 </li>
                 <li className="menu__item">
-                    <Link to={`music`}>Music</Link>
+                    <NavLink to={`music`}>Music</NavLink>
                 </li>
             </ul>
         </aside>

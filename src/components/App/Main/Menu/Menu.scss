@@ -11,4 +11,21 @@
     &__list {
         list-style-type: none;
     }
+
+    &__item {
+
+        & a {
+            display: inline-block;
+            font-size: 16px;
+            line-height: 13px;
+            padding: 8px;
+            border: 3px transparent solid;
+            transform: translateX(-5px);
+            border-radius: 5px;
+        }
+
+        & a.active {
+            border: 3px var(--mainOrange) solid;
+        }
+    }
 }
